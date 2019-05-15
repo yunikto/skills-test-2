@@ -1,0 +1,16 @@
+#include <iostream>
+#include <conio.h>
+using namespace std;
+int main()
+{
+    int x, y;
+	cout << "enter a number: ";
+	cin >> x;
+	cout<< "multiplication table of " << x<< ":" << endl; 
+	for (y=1; y<=10;y++)
+	{
+		cout << y << "*" << x<< " = " << x*y << endl;
+	}
+ getch();
+ return 0;
+}
